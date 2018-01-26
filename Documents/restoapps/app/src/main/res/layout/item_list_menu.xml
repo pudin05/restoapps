@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:id="@+id/rlil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:cursorVisible="false"
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/daftar_deskripsi1"
+                android:layout_alignBottom="@+id/daftar_deskripsi1"
+                android:layout_toEndOf="@+id/daftar_deskripsi1"
+                android:layout_toRightOf="@+id/daftar_deskripsi1"
+                android:text="1000"
+                android:textColor="@android:color/holo_green_light" />
+
+            <ImageView
+                android:id="@+id/daftar_icon1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+
+                />
+
+            <TextView
+                android:cursorVisible="false"
+                android:id="@+id/daftar_judul1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daftar_icon1"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="16dp"
+                android:text="Daftar Judul"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:cursorVisible="false"
+                android:id="@+id/daftar_deskripsi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daftar_judul1"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="16dp"
+                android:ellipsize="end"
+                android:text="2000"
+                android:textColor="@color/morning"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>

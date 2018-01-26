@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#4F11</color>
+    <color name="custom">#881f</color>
+    <color name="custom1">#81f</color>
+    <color name="morning">#58a9f5</color>
+    <color name="floatbtn">#00a8ec</color>
+    <color name="floatcart">#ea2791</color>
+</resources>
