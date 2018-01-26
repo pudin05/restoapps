@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>ASUSayang</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>415355536179616E67</hex>
+			<name>ASUSayang</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000076A5D27A7FC832438B4AFE6DD53F2EA90000000002000000000010660000000100002000000097174F9BA3406C4214605F1E274E0BCE7FBB46BF0A0EC3F844DE8F8B122A3B71000000000E8000000002000020000000886F500A1CC96F73788A7EE42ECDA308F8BAB3A4E4142CC35E29FBAE07D68F75100000003C8A7D041E7DA28AE70A7353BA87F39B4000000071566C58A02CD6738D2A298158FCE1C680D8EE58E9DED7C089103D38C6390C19B68599FB2DE158B9D662BCF29341979D60B79132B5B0F9113AF4999643B8B096</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+	</MacRandomization>
+</WLANProfile>
